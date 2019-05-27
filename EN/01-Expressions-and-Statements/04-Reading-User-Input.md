@@ -108,7 +108,7 @@ python {file_name}
 Write a program, which:
 
 * Reads a user input - name, from the console
-* Prints "Hello, \{name\}!", where \{name\} is the user input
+* Prints "Hello, \{name\}", where \{name\} is the user input
 [/task-description]
 [code-io /]
 [/code-task]
@@ -125,7 +125,7 @@ Write a program, which:
 [code-editor language=python]
 ```
 name = input()
-print('Hello, ', end=" ")
+print('Hello, ', end="")
 print(name)
 ```
 [/code-editor]
@@ -133,7 +133,7 @@ print(name)
 Write a program, which:
 
 * Reads a user input - name, from the console
-* Prints "Hello, \{name\}!", where \{name\} is the user input
+* Prints "Hello, \{name\}", where \{name\} is the user input
 [/task-description]
 [code-io /]
 [/code-task]
