@@ -1,6 +1,6 @@
 [slide]
 
-# Definition and Syntax
+# For Loop: Definition and Syntax
 
 Allows code to be executed repeatedly
 
