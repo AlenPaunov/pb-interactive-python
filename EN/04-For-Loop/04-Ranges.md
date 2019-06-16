@@ -1,5 +1,5 @@
 [slide]
-# Definition and Syntax
+# Range
 Range is a function in python, which generates a collection of numbers in a given range
 
 ```python
@@ -13,7 +13,7 @@ range(1, 10, 2) # start, end, step (optional)
 [/slide]
 
 [slide]
-# Ranges in Loops
+# Range in Loop
 We can use ranges in for-loops
 ```python
 for num in range(1, 5):
@@ -23,6 +23,7 @@ for num in range(1, 5):
 # 3
 # 4
 ```
+
 ```python
 for num in range(4, 0, -1):
   print(num)
