@@ -97,7 +97,7 @@ Write a program, which:
 [task-description]
 Write a program, which:
 
-* Reads days in the current month and salary per day
+* Reads working days in the current month and salary for each day
 * Calculates the salary for the month
 * Prints the result on the console
 [/task-description]
@@ -111,8 +111,10 @@ Write a program, which:
 
 |Input|Output|
 |-----|------|
-|28|560|
-|20||
+|3|330|
+|100||
+|110||
+|120||
 [/slide]
 
 [slide]
@@ -121,17 +123,17 @@ Write a program, which:
 [code-editor language=python]
 ```
 days = int(input())
-salaryPerDay = int(input())
-totalSalary = 0
+total_salary = 0
 for i in range(1, days + 1):
-   totalSalary += salaryPerDay
-print(totalSalary)
+  salary_per_day = int(input())
+  total_salary += salary_per_day
+print(total_salary)
 ```
 [/code-editor]
 [task-description]
 Write a program, which:
 
-* Reads days in the current month and salary per day
+* Reads working days in the current month and salary for each day
 * Calculates the salary for the month
 * Prints the result on the console
 [/task-description]
@@ -140,11 +142,8 @@ Write a program, which:
 # Sample Input and Output
 |Input|Output|
 |-----|------|
-|30|300|
-|10||
-
-|Input|Output|
-|-----|------|
-|28|560|
-|20||
+|3|330|
+|100||
+|110||
+|120||
 [/slide]
