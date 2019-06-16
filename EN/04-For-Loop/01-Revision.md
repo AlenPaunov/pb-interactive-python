@@ -14,10 +14,6 @@ if expression:
     # Code to be executed
 ```
 
-[/slide]
-
-[slide]
-
 # Logical Operators
 
 Logical operators are used to perform logical operation such as **_and_**, **_or_**
@@ -26,6 +22,5 @@ The logical operators are:
 
 - AND (**and**)
 - OR (**or**)
-
-Logical negation (**not**)
+- Logical negation (**not**)
 [/slide]
