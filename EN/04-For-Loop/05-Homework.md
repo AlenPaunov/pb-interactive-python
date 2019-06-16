@@ -395,9 +395,9 @@ for i in range(0, n):
 result_P1 = (p1 / n) * 100;
 result_P2 = (p2 / n) * 100;
 result_P3 = (p3 / n) * 100;
-print(f"{}result_P1:.2f}%")
-print(f"{}result_P2:.2f}%")
-print(f"{}result_P3:.2f}%")
+print(f"{result_P1:.2f}%")
+print(f"{result_P2:.2f}%")
+print(f"{result_P3:.2f}%")
 ```
 [/code-editor]
 [task-description]
