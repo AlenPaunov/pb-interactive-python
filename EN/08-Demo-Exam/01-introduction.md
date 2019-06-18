@@ -1,3 +1,3 @@
 [slide]
-# Introduction
+# Demo Exam
 [/slide]
