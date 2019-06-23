@@ -1,7 +1,7 @@
 [slide]
+# Revision
 
 # For Loop
-
 Allows code to be executed **repeatedly**
 
 Repeating while the condition is met
@@ -10,12 +10,8 @@ Repeating while the condition is met
 for i in iterable:
   print(i)
 ```
-[/slide]
-
-[slide]
 
 # Range
-
 Range is a function in Python, which generates a collection of numbers in a given range
 
 ```python
