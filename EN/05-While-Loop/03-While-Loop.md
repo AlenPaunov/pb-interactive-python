@@ -1,6 +1,9 @@
 [slide]
 # While Loop
-A **while loop** is used to repeat a block of code when we don't know the count of iterations
+The **`while`** statement executes a statement or a block of statements while a specified **`boolean expression`** evaluates to **`True`**
+
+The expression is evaluated before each execution of the loop
+
 ```python
 n = int(input())
 # keyword   condition
