@@ -1,3 +1,0 @@
-[slide]
-# Demo Exam
-[/slide]
