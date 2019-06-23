@@ -10,7 +10,7 @@ When it is executed, the code inside the loop's body after it **is skipped** and
 ```python
 while True:
   number = int(input())
-  if number % 2 != 0:
+  if (number % 2) != 0:
     break
   print("Enter an even number!")
 ```
