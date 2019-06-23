@@ -1,65 +1,8 @@
 [slide]
 # Homework
-
 Now, it's your turn to practice what you have learned in the training session.
 
 We have prepared some simple problems for you to solve. If you struggle you can see the solution after each problem.
-[/slide]
-
-[slide]
-# Problem: Stop Copying Me
-[code-task title="Stop Copying Me" executionStrategy="python-code" requiresInput]
-[code-editor language=python]
-```
-# Write your code here
-```
-[/code-editor]
-[task-description]
-Write a program which:
-
-* Prints the same text that a user gives it until it receives: "stop copying me" (case insensitive)
-
-When the stop command is provided print: "UGH FINE, YOU WIN!"
-[/task-description]
-[code-io /]
-[/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|hi|hi|
-|how are you?|how are you?|
-|hey!|hey!|
-|SToP CoPyinG mE|UGH FINE, YOU WIN!|
-[/slide]
-
-[slide]
-# Solution: Stop Copying Me
-[code-task title="Stop Copying Me" executionStrategy="python-code" requiresInput]
-[code-editor language=python]
-```
-text = input()
-while text.lower() != "stop copying me":
-    print(text)
-    text = input()
-print("UGH FINE, YOU WIN!")
-```
-[/code-editor]
-[task-description]
-Write a program which:
-
-* Prints the same text that a user gives it until it receives: "stop copying me" (case insensitive)
-
-When the stop command is provided print: "UGH FINE, YOU WIN!"
-[/task-description]
-[code-io /]
-[/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|hi|hi|
-|how are you?|how are you?|
-|hey!|hey!|
-|SToP CoPyinG mE|UGH FINE, YOU WIN!|
 [/slide]
 
 [slide]
