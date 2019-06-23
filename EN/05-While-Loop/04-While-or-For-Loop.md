@@ -129,5 +129,5 @@ Write a program, which:
 |-----|------|
 |5|6|
 |Add||
-|End||
+|END||
 [/slide]
