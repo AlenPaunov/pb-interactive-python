@@ -386,13 +386,13 @@ Write a program, which:
 |Input|Output|
 |-----|------|
 |a|aaa|
-|b|aac|
-|c|aca|
-||acc|
-||caa|
-||cac|
-||cca|
-||ccc|
+|b|aab|
+|c|aba|
+||abb|
+||baa|
+||bab|
+||bba|
+||bbb|
 ||8|
 [/slide]
 
@@ -427,13 +427,13 @@ Write a program, which:
 |Input|Output|
 |-----|------|
 |a|aaa|
-|b|aac|
-|c|aca|
-||acc|
-||caa|
-||cac|
-||cca|
-||ccc|
+|b|aab|
+|c|aba|
+||abb|
+||baa|
+||bab|
+||bba|
+||bbb|
 ||8|
 [/slide]
 
