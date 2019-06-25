@@ -120,15 +120,15 @@ Write a program, which:
 [code-task title="Triangle of Stars 2" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
-height = int(input())
+height = 5
 i = 1
-  while i <= height:
-  j = 0
-  while j < i:
-    print('*', end="")
-    j += 1
-  print()
-  i += 1
+while i <= height:
+    j = 0
+    while j < i:
+        print('*', end="")
+        j += 1
+    print()
+    i += 1
 ```
 [/code-editor]
 [task-description]
