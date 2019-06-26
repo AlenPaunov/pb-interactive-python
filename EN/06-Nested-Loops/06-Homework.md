@@ -505,3 +505,69 @@ Write a program, which:
 ||12321|
 ||1234321|
 [/slide]
+
+[slide]
+# Problem: Sum of Digits Calculator
+[code-task title="Sum of Digits Calculator" executionStrategy="python-code" requiresInput]
+[code-editor language=python]
+```
+# Write your code here
+```
+[/code-editor]
+[task-description]
+Write a program, which:
+
+* Continuously reads integers until "End" is entered
+* Prinst the sum of digits for each integer
+* Finally, prints "Goodbye
+[/task-description]
+[code-io /]
+[/code-task]
+# Sample Input and Output
+|Input|Output|
+|-----|------|
+|157|Sum of digits = 13|
+|99|Sum of digits = 18|
+|5|Sum of digits = 5|
+|438|Sum of digits = 15|
+|End|Goodbye|
+[/slide]
+
+[slide]
+# Solution: Sum of Digits Calculator
+[code-task title="Sum of Digits Calculator" executionStrategy="python-code" requiresInput]
+[code-editor language=python]
+```
+line = input()
+while True:
+  if line == "End":
+    break  
+  total_sum = 0
+  num = int(line)
+  while num != 0: 
+    digit = num % 10
+    total_sum += digit
+    num = num // 10
+  print(f"Sum of digits: {total_sum}")
+  line = input()
+print("Goodbye")
+```
+[/code-editor]
+[task-description]
+Write a program, which:
+
+* Continuously reads integers until "End" is entered
+* Prinst the sum of digits for each integer
+* Finally, prints "Goodbye
+[/task-description]
+[code-io /]
+[/code-task]
+# Sample Input and Output
+|Input|Output|
+|-----|------|
+|157|Sum of digits = 13|
+|99|Sum of digits = 18|
+|5|Sum of digits = 5|
+|438|Sum of digits = 15|
+|End|Goodbye|
+[/slide]
