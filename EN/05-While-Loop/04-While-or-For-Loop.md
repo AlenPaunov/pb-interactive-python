@@ -9,18 +9,10 @@ Use ***while*** when you don't know when you will meet the end condition
 
 [slide]
 # Problem: Odd Number
-[code-task title="Odd Number" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
+[code-task title="Odd Number" executionStrategy="python-code" requiresInput]
+[code-editor language=python]
 ```
-using System;
-
-public class Program
-{
-  public static void Main()
-  {
-    // Write code here
-  }
-}
+# Write your code here
 ```
 [/code-editor]
 [task-description]
