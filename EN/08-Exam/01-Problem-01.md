@@ -22,7 +22,7 @@ Print on the console the profit from the sales in the following format:
 - "The profit from the movie \{name of the movie\} is \{studio's profit\}$"
 The profit must be formatted to two digits after the decimal point.
 
-[code-task title="Problem-01" taskId="pb-may-pr-01" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Problem-01" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
