@@ -60,7 +60,7 @@ Hello Python
 
 [slide]
 # Problem: Calculate and Print 5 * 5
-[code-task title="Calculate and Print 5 * 5" executionStrategy="python-code" ]
+[code-task title="Calculate and Print 5 * 5" executionType="tests-execution" executionStrategy="python-code" ]
 [code-editor language=python]
 ```
 # Write your code here
